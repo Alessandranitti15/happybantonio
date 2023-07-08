@@ -1,0 +1,53 @@
+html {
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    gap: 20px;
+    padding: 30px;
+}
+
+.secchia {
+    border-radius: 20%;
+}
+
+.button {
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 50;
+    color:#fff;
+    font-size: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.testo {
+    background-color: #fff;
+    width: 200px;
+    border-radius: 5%;
+    padding: 10px;
+}
