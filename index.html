@@ -9,31 +9,29 @@
     </head>
 
     <body>
-        <audio autoplay>
-            <source src="scream-sound.mp3" type="audio/mpeg" id="musicplayer" class="audio-scream"/>
+
+        <iframe src="silence.mp3" allow="autoplay" id="audio" hidden></iframe>
+        <!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none;"></iframe> -->
+        <audio id="musicplayer" autoplay>
+            <source src="panic.mp3" type="audio/mpeg">
         </audio>
         <div class="main">
             <div class="testo" hidden>
                 Ti auguro tanti viaggi, tanti schei e soprattutto tanto sesso sennò la Culpo di incazza
             </div>
-                <div class="center">
-                    <img src="secchia.jpeg" alt="secchia" class="secchia">
-                    <button class="button">Click here</button>
-                    <audio id="audioPlayer">
-                        <source src="happy-birthday.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                      </audio>
-                </div>
-                
+            <div class="center">
+                <img src="secchia.jpeg" alt="secchia" class="secchia">
+                <button class="button">Click here</button>
+                <audio id="audioPlayer">
+                    <source src="happy-birthday.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             </div>
         </div>
-        
+        </div>
+
 
         <script src="index.js"></script>
     </body>
 
 </html>
-
-<!-- <div class="testo">
-    Ti auguro tanti viaggi, tanti schei e soprattutto tanto sesso sennò la Culpo di incazza
-</div> -->
